@@ -1,3 +1,7 @@
+#IMPORTANT!! DO NOT PUSH config/auth.json!! Private creds are in here. Repository is public, anyone can see it!!!!
+config/auth.json
+#DO NOT CHANGE THE ABOVE IN ANY FASHION!!!
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
