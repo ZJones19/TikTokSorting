@@ -1,6 +1,3 @@
-#IMPORTANT!! DO NOT PUSH config/auth.json!! Private creds are in here. Repository is public, anyone can see it!!!!
-#DO NOT CHANGE THE BELOW IN ANY FASHION!!!
-config/auth.json
 index.html
 
 # Byte-compiled / optimized / DLL files
@@ -132,3 +129,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#IMPORTANT!! DO NOT PUSH config/auth.json!! Private creds are in here. Repository is public, anyone can see it!!!!
+#DO NOT CHANGE THE BELOW IN ANY FASHION!!!
+config/auth.json
