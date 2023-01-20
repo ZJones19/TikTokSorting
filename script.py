@@ -25,7 +25,6 @@ except:
     print("Unknown error")
     exit(0)
 
-
 if not "client_key" in creds.keys():
     print("Auth file is corrupted. Please pull the latest stable branch and re-enter credentials.")
     exit(0)
@@ -45,7 +44,15 @@ if response.status_code != 200:
 login_page = BeautifulSoup(response.content, "html.parser")
 
 
-#TODO: Integrate with Flask
-with open("index.html", "wt") as output_file:
-    output_file.write(login_page.prettify())
+try:
+    #TODO: Integrate with Flask
+    with open("index.html", "wt") as output_file:
+        output_file.write(login_page.prettify())
+except IOError as e:
+    print(f"Error writing to file, {e.strerror}")
+    exit(0)
+except:
+    print("Unknown error")
+    exit(0)
+
 wb_open("index.html")
