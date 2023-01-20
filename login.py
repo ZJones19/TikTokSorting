@@ -22,7 +22,7 @@ except IOError as e:
     print(f"Error reading file, {e.strerror}")
     exit(0)
 except:
-    print("Unknown error")
+    print("Unknown error when attempting to read config file")
     exit(0)
 
 if not "client_key" in creds.keys():
@@ -35,8 +35,8 @@ payload = {
     "client_key": creds["client_key"],
     "scope": "user.info.basic,video.list",
     "response_type": "code",
-    "state": "1",           #TODO: Generate an actual random state
-    "redirect_uri": "./"    #TODO: Link to an actual callback page
+    "state": "1",                                                   #TODO: Generate an actual random state
+    "redirect_uri": "https://github.com/ZJones19/TikTokSorting"     #TODO: Link to an actual callback page
 }
 response = requests.get(API_URL, params = payload)
 if response.status_code != 200:
@@ -46,13 +46,13 @@ login_page = BeautifulSoup(response.content, "html.parser")
 
 try:
     #TODO: Integrate with Flask
-    with open("index.html", "wt") as output_file:
-        output_file.write(login_page.prettify())
+    with open("index.html", "wb") as output_file:
+        output_file.write(login_page.prettify("utf8"))
 except IOError as e:
     print(f"Error writing to file, {e.strerror}")
     exit(0)
 except:
-    print("Unknown error")
+    print(f"Unknown error when attempting to generate login page")
     exit(0)
 
 wb_open("index.html")
