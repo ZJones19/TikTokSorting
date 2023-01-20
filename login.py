@@ -19,7 +19,7 @@ try:
     with open(config_filepath) as auth_file:
         creds = load(auth_file)
 except IOError as e:
-    print(f"Error reading file, {e.strerror}")
+    print(f"Error reading config file")
     exit(0)
 except:
     print("Unknown error when attempting to read config file")
@@ -49,7 +49,7 @@ try:
     with open("index.html", "wb") as output_file:
         output_file.write(login_page.prettify("utf8"))
 except IOError as e:
-    print(f"Error writing to file, {e.strerror}")
+    print(f"Error writing to file")
     exit(0)
 except:
     print(f"Unknown error when attempting to generate login page")
