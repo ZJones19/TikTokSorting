@@ -17,4 +17,4 @@ Run `pip install -r requirements.txt` to install all dependencies.
 
 ### How To Run
 Insert proper creds in `config/auth.json`  
-Run script with `python script.py`  
+Run script with `python login.py`  
