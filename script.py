@@ -2,6 +2,8 @@ import requests
 from os import path
 from sys import exit
 from json import load
+from bs4 import BeautifulSoup
+from webbrowser import open as wb_open
 
 
 #Ensure config file exists
@@ -34,11 +36,16 @@ payload = {
     "client_key": creds["client_key"],
     "scope": "user.info.basic,video.list",
     "response_type": "code",
-    "state": "1",    #TODO: Generate an actual random state
-    "redirect_uri": "./"
+    "state": "1",           #TODO: Generate an actual random state
+    "redirect_uri": "./"    #TODO: Link to an actual callback page
 }
 response = requests.get(API_URL, params = payload)
 if response.status_code != 200:
     print(f"Response failed, recieved {response.status_code}")
+login_page = BeautifulSoup(response.content, "html.parser")
 
-#TODO: Write response HTML into a webpage. Probably will use Flask?
+
+#TODO: Integrate with Flask
+with open("index.html", "wt") as output_file:
+    output_file.write(login_page.prettify())
+wb_open("index.html")
