@@ -4,7 +4,7 @@ App for organizing tiktoks into useful categories
 ## For Developers
 ***Extremely Important***:  
 Before pushing any changes, makes sure you have ran the following command:  
-`git update-index --skip-worktree config\auth.json`  
+`git update-index --skip-worktree config/auth.json`  
 
 This prevents `auth.json` from being tracked. Still, before pushing make it is a best practice to quickly run `git status` to see what files have been staged. If `auth.json` is staged, remove it by running:  
 `git reset -- config/auth.json`  
