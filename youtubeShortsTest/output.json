@@ -1,0 +1,307 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "q70ZW98eta-34xxOSc4FHXvqAog",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "hhBPuiPWjYuTZ7NcqGxjNA7sgQ8",
+      "id": "8lCCj89QpkM",
+      "snippet": {
+        "publishedAt": "2022-12-14T22:31:14Z",
+        "channelId": "UCpuT8AlP9P9EgW_pZ0_xInQ",
+        "title": "No dog loves swimming more than this one 😂👏",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8lCCj89QpkM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8lCCj89QpkM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8lCCj89QpkM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8lCCj89QpkM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8lCCj89QpkM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dylan Anderson",
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "No dog loves swimming more than this one 😂👏",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "duration": "PT20S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "36472643",
+        "likeCount": "2318692",
+        "favoriteCount": "0",
+        "commentCount": "11350"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "EGSj4pLwVc2w8VRkCYLhmARQd2w",
+      "id": "4Z3eb8dySWk",
+      "snippet": {
+        "publishedAt": "2022-11-10T12:32:12Z",
+        "channelId": "UCRMFdgLPrlBPsIITYcaMKHw",
+        "title": "The most polite robbery ever! 🤣🐻Via @malereel",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4Z3eb8dySWk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4Z3eb8dySWk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4Z3eb8dySWk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4Z3eb8dySWk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4Z3eb8dySWk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dan's Pet Care ",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "The most polite robbery ever! 🤣🐻Via @malereel",
+          "description": ""
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT13S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "4955322",
+        "likeCount": "306862",
+        "favoriteCount": "0",
+        "commentCount": "6829"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "7MjXLo0rilS3czxH9qKqCHyTga0",
+      "id": "dEbacBNQv7A",
+      "snippet": {
+        "publishedAt": "2023-01-14T16:18:09Z",
+        "channelId": "UCkt8-yloGPjAWgxY-gz5l1Q",
+        "title": "#cats #catvideos #catlover #cat #20years #catlovers",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dEbacBNQv7A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dEbacBNQv7A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dEbacBNQv7A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dEbacBNQv7A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dEbacBNQv7A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dago the Cat",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "#cats #catvideos #catlover #cat #20years #catlovers",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "duration": "PT21S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "618945",
+        "likeCount": "44557",
+        "favoriteCount": "0",
+        "commentCount": "1144"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "zmMSGQcP5BR29_mPc4WmZhwJmug",
+      "id": "toPFdpNA_4I",
+      "snippet": {
+        "publishedAt": "2023-01-21T19:01:53Z",
+        "channelId": "UCpuT8AlP9P9EgW_pZ0_xInQ",
+        "title": "This dog is obsessed with horses 😂❤️",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/toPFdpNA_4I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/toPFdpNA_4I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/toPFdpNA_4I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/toPFdpNA_4I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/toPFdpNA_4I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dylan Anderson",
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "This dog is obsessed with horses 😂❤️",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "duration": "PT19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "6108143",
+        "likeCount": "378166",
+        "favoriteCount": "0",
+        "commentCount": "2629"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "NMYH51E2IoIXYvgsXGV69UbqsY8",
+      "id": "ezDde-Q2Tj4",
+      "snippet": {
+        "publishedAt": "2022-09-13T16:31:22Z",
+        "channelId": "UCcGHrLbRifyyI-DDRc3iQtQ",
+        "title": "They’re ✨special ✨",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ezDde-Q2Tj4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ezDde-Q2Tj4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ezDde-Q2Tj4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ezDde-Q2Tj4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "TheGoodHype",
+        "categoryId": "15",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "They’re ✨special ✨",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "duration": "PT37S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "3288364",
+        "favoriteCount": "0",
+        "commentCount": "847"
+      }
+    }
+  ],
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 78,
+    "resultsPerPage": 5
+  }
+}
+
